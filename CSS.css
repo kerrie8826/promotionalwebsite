@@ -1,0 +1,137 @@
+body {
+
+    background-image: url(Pictures/marble2.png);
+	font-size: 1.2em;
+    background-size: contain;
+    background-clip: inherit;
+    font-family: Montserrat;
+}
+
+.parent {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(5, auto);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.picgrid {
+    display: grid;
+    grid-template-rows: repeat (2, 200px);
+}
+
+.picgrid img{
+    width: 100%;
+    height:auto;
+}
+
+.screenrow img{
+    width: 70%;
+    height:auto;
+}
+
+.screenrow{
+    text-align: center;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#bar {
+    overflow: hidden;
+  background-color: #333;  
+    opacity: 0.90;
+     padding: 0px 130px 0px 130px;
+    margin-bottom: 0px;
+    position: sticky;
+    top: 0;
+}
+
+#bar ul{
+    list-style-type: none;
+    overflow: hidden;
+      margin: 0;
+  padding: 0;
+}
+
+#bar li {
+  float: left;
+}
+
+.downloadlink a{
+   background-color: #EEA6A6; 
+}
+
+#bar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+    padding: 14px 16px;
+  text-decoration: none;
+}
+
+#bar a:hover {
+  background-color: white;
+  color: black;
+}
+
+.features {
+    padding: 5% 28% 5% 28%;
+    font-size: 1.1em;
+    margin: 0;
+}
+
+.main {
+    background-color: rgba(255,255,255, 0.7);
+}
+
+h3{
+    font-size: 1.7em;
+    font-weight: 500;
+}
+
+h4{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+#screens {
+    text-align: center;
+
+}
+
+.features img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.download a {
+    text-decoration: none;
+    color: white;
+}
+
+.download:hover {
+  background-color: #333;
+}
+
+.download {
+  background-color: #EEA6A6;
+  color: white;
+  font-size: 1.4empx;
+  padding: 16px 32px;
+}
+
+#container {
+	margin: auto;
+	width:75%;
+}
